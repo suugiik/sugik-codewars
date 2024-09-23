@@ -1,9 +1,12 @@
 function solution(str){
+    // percobaan pertama
     // if(str.length % 2 == 1) {
     //     str += '_';     
     // }
 
+    // percobaan kedua
     (str.length % 2 == 1) ? str += '_' : str;
+    
     return str.split(/(.{2})/).filter(Boolean)
 }
 
